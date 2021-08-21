@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salmoon sidebar project</title>
+    <title>Salmoon's Resume</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -28,13 +28,13 @@
       </div>
       <ul class="links">
         <li>
-          <a href="index.html">home</a>
+          <a href="#home">home</a>
         </li>
         <li>
-          <a href="about.html">about</a>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="projects.html">projects</a>
+          <a href="">projects</a>
         </li>
         <li>
           <a href="contact.html">contact</a>
@@ -58,7 +58,7 @@
       </ul>
     </aside>
     <section>
-          <div class="container bgshadow">
+          <div class="container bgshadow" id="home">
             <div class="col">
              
               <h1 class="bgshadow2 text-center">Salmoon Samuel</h1>
@@ -83,17 +83,17 @@
                 <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Professional Experience</h1>
               <div class="row pb-4  ">
                 <!---Card-->
-                <div class="col-sm-6 card offset-1">
+                <div class="col-sm-6 card border border-secondary border-4 offset-">
                   <div class="card-header">
                     <h1 class="fs-4 p-4 text-light bg-secondary text-center  fw-bold "> ServiceNow Fundamentals</h1>
                   </div>
                   <div class="card-body">
                     <h3 class="card-title text-center pt-3 fw-bold">New Apprenticeship | Remote</h3>
                     <h4 class="card-subtitle text-muted text-center">July 2021 --- Present </h4>
-                    <div class="card-body">
+                    <div class="card-body ">
                       <ul class=" fs-5 text-dark fw-bold">
-                        <br>
-                        <h4>1- ITILFoundation</h4>
+                      <br>
+                        <h4 class="text">1- ITILFoundation</h4>
                         <ul>
                           <p class="fs-6">ITIL 3 lifecycles and concepts</p>
                         </ul>
@@ -101,7 +101,7 @@
                         <ul>
                           <p class="fs-6">ServiceNow Simulator Activities</p>
                         </ul>
-                        <h4>Job Readiness Coaching</h4>
+                        <h4>3- Job Readiness Coaching</h4>
                         <ul>
                           <p class="fs-6">- Cover letter and Resume Writting <br>- Interview Guide | Interview preparation <br>-
                             Managing Energy and motivations <br>- Setting Smart Goals </p>
@@ -112,47 +112,57 @@
         
                   </div>
                 </div>
-                <div class="col-sm-2">
-                  <img class="offset-2 border border-secondary border-4" src="./images/servicenowpic.png"
-                    width="400" height="500" />
+                <div class="col-sm-3">
+                  <img class="offset-2 border mt-3 border-secondary border-4" src="./images/itil pic.png"
+                    width="450" height="500"/>
                 </div>
               </div>
               <div class="row pt-4 pb-4">
-                <div class="col-sm-4">
-                  <img class="offset-3" src="./images/backend.png" width="400" height="450" />
-                </div>
-                <div class="col-sm-6 card offset-2">
+                <div class="col-sm-12 card offset- border border-secondary border-4">
                   <div class="card-header">
-                    <h1 class="fs-4 p-4 text-light bg-secondary text-center  fw-bold  "> NuCamp
-                      Coding Bootcamp: </h1>
+                    <h1 class="fs-4 p-4 text-light bg-secondary text-center  fw-bold  "> ServiceNow Fundamentals: </h1>
                   </div>
                   <div class="card-body">
-                    <h3 class="card-title text-center pt-3 fw-bold">Back End Development</h3>
-                    <h4 class="card-subtitle text-muted text-center pb-4">March 2021 --- June 2021 </h4>
+                    <h3 class="card-title text-center pt-3 fw-bold">Jira Project</h3>
+                    <h4 class="card-subtitle text-muted text-center pb-4">Agile Methodolgy </h4>
                     <ul class=" fs-5 text-dark pt-2 fw-bold">
-                      <li> Backend with Node Js -- Express + MongoDB + Mongoose.</li>
-                      <li> Worked on Nucampsite project and use following dependencies:</li>
+                      <li> Created the issue "user story" and added into the sprint.</li>
                       <ul>
-                        <li>Node and Express.</li>
+                        <li>Designed the task Board. </li>
                         <li>
-                          MongoDB data Base.
+                          Run the reports like <b>Burnup report<b> and sprint Burndown chart.
                         </li>
-                        <li>Created Server and Routers</li>
-                        <li>Authentication; passport and JSON Web Token-based Authentication. </li>
+                        <li>Setup the Backlog.</li>
+                        <li>Assign the Tasks and set the story point estimate. </li>
                       </ul>
                     </ul>
                   </div>
                 </div>
               </div>
+                <div class="col-sm-12">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img class="border border-secondary border-2" src="./images/burnup report.png" width="300" height="350" />
+                    </div>
+                    <div class="col-sm-4">
+                      <img class="border border-secondary border-2" src="./images/baklog.png" width="300" height="250" />
+                    </div>
+                    <div class="col-sm-3">
+                      <img class="border border-secondary border-2" src="./images/board.png" width="300" height="350" />
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
+          <br>
+          <hr>
         </section>
         <section class="pt-4">
           <div class="jumbotron pt-1">
             <div class="container1 ">
               <div class="row pb-4  ">
                 <!---Card-->
-                <div class="col-sm-6 card offset-1">
+                <div class="col-sm-6 card border border-secondary border-4 offset-1">
                   <div class="card-header">
                     <h1 class="fs-4 p-4 text-light bg-secondary text-center  fw-bold "> NuCamp Coding
                       Bootcamp</h1>
@@ -185,7 +195,7 @@
                 <div class="col-sm-4">
                   <img class="offset-3 border border-secondary border-4" src="./images/backend.png" width="400" height="450" />
                 </div>
-                <div class="col-sm-6 card offset-2">
+                <div class="col-sm-6 card border border-secondary border-4 offset-2">
                   <div class="card-header">
                     <h1 class="fs-4 p-4 text-light bg-secondary text-center  fw-bold  "> NuCamp
                     Coding Bootcamp: </h1>
@@ -212,59 +222,53 @@
           </div>
         </section>
        
-        <div class="jumbotron pb-4 pt-4 " id="projects">
+        <div class="jumbotron  pt-4 " id="projects">
           <div class="container1 container ">
             <div class="row text-center projdiv">
-              <div class="col-sm-5 text center">
-                <h1 class="darkn fs-4 pb-4 text-light bg-secondary text-center pt-3 fw-bold "> Ss-foods| Food Delivery App
-                  Project: </h1>
-                <ul class="pt-4 fw-bold fs-5 ">
-                  <li>website idea i got from DoorDash app, so i try to create a simple version, where
-                    people can
-                    order food from any restaurant and they just need to provide their receipt and choose a driver and we will
-                    deliver the food to them.</li>
-                  <li>I used Html / Css / Bootstrap / Javascript / npm to install dependencies (font
-                    awesome, social icons, popper,
-                    jquery) / Github.Project is deployed to netlify through Github.<br> click the button below to see the
-                    project</li>
-                  <li>React and React Native projects are in progress, i do have their repositories at Github. Soon i
-                    will deploy at netlify.</li>
-                </ul>
-                <p class="mt-4"></p>
+              <div class="col-sm-12 card border border-secondary border-4">
+                <div class="card-header">
+                  <h1 class="fs-4 p-4 text-light bg-secondary text-center  fw-bold  "> NuCamp Coding Bootcamp:</h1>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title text-center pt-3 fw-bold">Food Delivery App Project</h3>
+                  <h4 class="card-subtitle text-muted text-center pb-4">Responsive Design</h4>
+                  <ul class=" fs-5 text-dark pt-2 fw-bold">
+                    <li> I used Following programming languages in this project:</li>
+                    <ul>
+                      <li>Html / CSS / Javascript / Bootstrap 5.0.</li>
+                      <li>
+                         Npm to install dependencies like Font-Awesome / Social icons / Jquery.
+                      </li>
+                      <li>Github to save my code in repository for future use.</li>
+                      <li>Netlify to deploy my project.</li>
+                    </ul>
+                  </ul>
+                </div>
               </div>
-              <div class="col-sm-5">
-                <img src="./images/ssfoodprojectpic.png" width="700" height="500">
-                <button class="bg-secondary mt-2 offset-4"><a class="text-light fw-bold"
-                    href="https://dazzling-stonebraker-48803d.netlify.app/">Ss-Foods</a></button>
+              <div class="col-sm-12 text-center mt-3 ">
+                <img class=" border border-secondary border-4" src="./images/ssfoodprojectpic.png" width="700" height="500">
+              </div>
+              <div>
+                    <button class="bg-secondary mt-2 offset-"><a class="text-light fw-bold"
+                        href="https://ssfood-delivery-app.netlify.app">Ss-Foods</a></button>
               </div>
             </div>
-            <!-- <div class="row text-center">
-                      <div class="col-sm-6  darkk">
-                        <p><a href='https://github.com/Salmoonsamuel'><i class="bi bi-github"></i>- Github Profile</a></p>
-                        <a href='https://github.com/Salmoonsamuel'><img src="Screen Shot 2021-08-18 at 2.20.43 AM.png" width="400"
-                            height="300"></a>
-                      </div>
-                      <div class="col-sm-6  darkk ">
-                        <p><a href="http://www.linkedin.com/in/salmoon-samuel-67978190"><i class="bi bi-linkedin"></i>- Linkedin
-                            profile </a></p>
-                        <a href="http://www.linkedin.com/in/salmoon-samuel-67978190"><img
-                            src="Screen Shot 2021-08-19 at 12.29.15 AM.png" width="400" height="300"></a>
-                      </div> -->
-          </div>
+            <br>
+            <hr>
+          
       
+          </div>
         </div>
-        </div>
-        <div class="jumbotron pt-4 mt-4" id="experience">
-          <div id="home" class="container">
-            <div class="row  ">
+        <div class="jumbotron mt-4" id="experience">
+          <div  class="container">
+            <h2 class="text-center pb-2"><strong><u>Experience:</u></strong></h2>
+            <div class="row ">
               <div class="col-sm-12 ">
-                <h2 class="text-center certificate pb-4"><strong><u>Experience:</u></strong></h2>
-                <br>
-                <br>
                 <div class="row">
                   <div class="col-sm-6">
-                    <h4 class="darkk"><strong><u>Marketing Co-Ordinator:</u></strong></h4>
-                    <p>Hardrock Casino and hotel - Atlantic City, NJ July 2018 to April 2020</p>
+                    <h2 ><strong><u>Marketing Co-Ordinator:</u></strong></h2>
+                    <h3 class="text-center">Hardrock Casino and hotel</h3>
+                    <p class="text-center">Atlantic City, NJ July 2018 to April 2020</p>
                     <p> In marketing coordinator position I worked at the players club , I handle customer
                       data, plus issue cards to players , issue promotions or update their information in system.
                       Help in different type of marketing activities like bingo game, slot tournament,
@@ -273,29 +277,21 @@
                   </div>
                   <br>
                   <div class="col-sm-4">
-                    <h4 class="darkk"><strong><u>Ocean Club Condominium Atlantic City</u></strong></h4>
-                    <p>(04/15/18 to 07/06/2018)</p>
+                    <h2 ><strong><u>Front-Desk</strong></h2>
+                      <h3 class="text-center">Ocean CLub</h3>
+                    <p class="text-center">(04/15/18 to 07/06/2018)</p>
                     <p>Worked at Front Desk / Security
                       Welcome guests
                       Handle Cash register.
                       Issue valet tickets.
                       Watch cctv cameras all the time.</p>
                   </div>
-                  <br>
-                  <div class="col-sm-12 pt-4">
-                    <h4 class="darkk"><strong><u>Prospect airport services in Philadelphia Airport (Ist January 2018 to
-                          04/15/18).
-                        </u></strong></h4>
-                    <p>Worked as a Lobby Agent.
-                      Great Passengers when they come in, i checked their boarding pass direct them to their right
-                      gates .
-                      Call help for disabled people.</p>
                   </div>
                   <br>
-                  <div class="row pt-4">
+                  <div class="row ">
                     <div class="col-sm-6">
-                      <h4 class="darkk"><strong><u>Senior Samsung Galaxy Consultant (customer service)</u></strong></h4>
-                      <p>Samsung Gulf DubaiApril 2014 to October 2015.</p>
+                      <h2 class=""><strong><u>Senior Samsung Galaxy Consultant </u></strong></h2>
+                      <h3 class="text-center pb-2">Samsung  April 2014 to October 2015.</h3>
                       <p>1- My job is to explain the features of new products. 2- Help the customers according to
                         their needs. 3- Solve the customers problems. 4- Promote the new products. </p>
                       <p>As a samsung consultant worked in following retailers.</p>
@@ -304,8 +300,9 @@
                     </div>
                     <br>
                     <div class="col-sm-6">
-                      <h4 class="darkk"><strong><u>Senior Sales Executive </u></strong></h4>
-                      <p>Telecom Department October 2011 to April 2014 </p>
+                      <h2 ><strong><u>Senior Sales Executive </u></strong></h2>
+                      <h3 class="text-center">Electronics Store </h3>
+                      <p class="text-center">October 2011 to April 2014</p>
                       <p>Handled the team of 5 people. Deal with Mobile Phones, Tablets ( Nokia, Samsung, Apple,
                         Blackberry, Lenovo, Hawaii / Samsung )Deal with cameras including DSLR,
                         Digital cameras, Camcorders. Providing information to customers to help them select the
@@ -319,34 +316,12 @@
       
                   </div>
                 </div>
-                <div class="col" id="assessments">
-                  <h2 class="text-center"><strong><u>Assessments</u></strong></h2>
-                  <br>
-                  <button class="text-center mb-4 pbutton bg-light "><a
-                      href="https://my.indeed.com/p/salmoons-adi4z0c">Through Indeed.Com</a></button>
-                  <div class="row pt-4">
-                    <div class="col-6">
-                      <h5 class="darkk"><strong><u>Work Style: Reliability — Highly Proficient: </u></strong></h5>
-                      <p>August 2020:</p>
-                      <p>Tendency to be dependable and come to work. Full results: Highly Proficient.</p>
-                    </div>
-                    <br>
-                    <div class="col-6">
-                      <h5 class="darkk"><strong><u>Data Entry: Accuracy — Proficient: </u></strong></h5>
-                      <p>October 2020 </p>
-                      <p>Entering data quickly and accurately. Full results: Proficient.</p>
-                    </div>
-                    <br>
-                    <div class="col-6">
-                      <h5 class="darkk"><strong><u>Customer Focus & Orientation — Proficient: </u></strong></h5>
-                      <p>August 2020 </p>
-                      <p>Responding to customer situations with sensitivity. Full results: Proficient.</p>
-                    </div>
-                    <br>
-                    <div class="col-6">
-                      <h5 class="darkk"><strong><u>Software developer fit: </u></strong></h5>
-                      <p>July 2021 </p>
-                      <p>Tests the tendency to prioritize quality over speed or efficiency. Also evaluates the enjoyment of
+                <div class="row">
+                    <h2 class="text-center"><strong><u>Assessments</u></strong></h2>
+                    <div class="col-sm-8">
+                      <h3 class="text-center"><strong><u>Software developer fit: </u></strong></h3>
+                      <p class="text-center">July 2021 </p>
+                      <p class="text-center">Tests the tendency to prioritize quality over speed or efficiency. Also evaluates the enjoyment of
                         analyzing complex
                         issues with a logical approach, of thinking of new or unconventional approaches to completing work
                         tasks and solving
@@ -354,27 +329,39 @@
                         preferring a quick work
                         pace when completing tasks. </p>
                     </div>
-                    <br>
-                    <div class="col-6">
-                      <h5 class="darkk"><strong><u>Data Entry: Attention to Detail — Familiar:</u></strong></h5>
-                      <p>August 2020 </p>
-                      <p>Maintaining data integrity by detecting errors. Full results: Familiar.</p>
+                    <div class="col-sm-4 text-center ">
+                      <img class=" border border-secondary border-2" src="./images/indeed.png" width="400" height="350" />
                     </div>
-                    <br>
-                    <div class="col-6">
-                      <h5 class="darkk"><strong><u>Scheduling — Familiar: </u></strong></h5>
-                      <p>October 2020 </p>
-                      <p>Cross-referencing agendas and itineraries to avoid scheduling conflicts. Full results:
-                        Familiar.</p>
+                    <div class="col-sm-4 text-center ">
+                      <img class=" border border-secondary border-2" src="./images/indeed.png" width="400" height="350" />
                     </div>
-                  </div>
+                      <div class="col-6">
+                        <h3 class="pt-4"><strong><u>Work Style: Reliability — Highly Proficient: </u></strong></h3>
+                        <p class="text-center">August 2020:</p>
+                        <p>Tendency to be dependable and come to work. Full results: Highly Proficient.<br>
+                        We recommend that you use this test in combination with other selection and hiring processes to measure only the
+                        knowledge, skills, abilities, and other characteristics that are 1) job-related and 2) required for a candidate’s first
+                        day on the job.</p>
+                      </div>
+                      <br>
+                      <div class="col-sm-6 pt-4">
+                        <h3 class="text-center"><strong><u>Data Entry: Accuracy — Proficient: </u></strong></h3>
+                        <p class="text-center"> October 2020 </p>
+                        <p>Entering data quickly and accurately. Full results: Proficient.<br> We recommend that you use this test in combination with other selection and hiring processes to measure only the
+                        knowledge, skills, abilities, and other characteristics that are 1) job-related and 2) required for a candidate’s first
+                        day on the job.</p>
+                      </div>
+                        <div class="col-sm-4 text-center ">
+                          <img class=" border border-secondary border-2" src="./images/data entry.png" width="400" height="350" />
+                        </div>
+                    </div>
+                    
                 </div>
+          
               </div>
             </div>
           </div>
           <hr>
-          <br>
-          <br>
           <div class="jumbotron " id="contact">
             <div class="container ">
               <div class="row text-center">
