@@ -233,7 +233,7 @@ Sidebar
   text-transform: capitalize;
   padding: 1rem 1.5rem;
   color: black;
-  text-shadow: 0px 4px 4px rgb(18, 76, 114);
+ hn8ik l,. */
   transition: var(--transition);
 }
 .links a:hover {
@@ -297,4 +297,33 @@ footer{
   margin-bottom: 1rem;
   font-family: serif;
   text-shadow: 0px 10px 15px rgb(141, 131, 131);
+}
+a:hover{
+  font-size: 25px;
+  color: blueviolet;
+}
+#home  p {
+  animation-duration: 2s;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+p:hover{
+  font-size: 20px;
+  color:rgb(61, 63, 68);
+}
+
+li:hover{
+  font-size: 25px;
+
 }
