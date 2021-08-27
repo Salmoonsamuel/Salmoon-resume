@@ -23,7 +23,7 @@
     <aside class="sidebar">
       <div class="sidebar-header">
         <img src="./images/image.png" width="130" height="300"  class="logo" alt="">
-        <button class="close-btn">
+        <!-- <button class="close-btn"> -->
            <i class="fas fa-times"></i>
         </button>
       </div>
@@ -60,7 +60,7 @@
     </aside>
     <section>
           <div class="container bgshadow" id="home">
-            <div class="col-sm-12">
+            <div class="col-12 col-sm-12">
              
               <h1 class="bgshadow2 text-center">Salmoon Samuel</h1>
               <h5 class="bgshadow2 fs-3"> Developer | Innovator | Creative thinker | Complex problem solver</h5>
@@ -96,11 +96,16 @@
         <!---ServiceNOw -->
         <section>
           <div class="jumbotron pt-1">
-            <div class="container1 ">
-                <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Professional Experience</h1>
+            <div class="container">
+              <div class="row">
+                  <div class="col-7 col-sm-12 ">
+                    <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Professional Experience</h1>
+                  </div>
+              </div>
+                
               <div class="row pb-4  ">
-                <!---Card-->
-                <div class="col-sm-12 card border border-secondary border-4 ">
+               
+                <div class="col-7 col-sm-12 card border border-secondary border-4 ">
                     <div class="card-header">
                       <h1 class="fs-4 p-4 text-light bg-primary text-center  fw-bold "> ServiceNow Fundamentals</h1>
                     </div>
@@ -126,7 +131,7 @@
                           
                               </ul>
                         </div>
-                        <div  class="col-sm-3">
+                        <div  class="col-2 col-sm-3">
                             <div class="col-sm-12 text-center">
                               <img class="offset-1 border mt-3 border-secondary border-4" src="./images/itil pic.png" width="400" height="300" />
                             </div>
@@ -138,7 +143,7 @@
                  
               </div>
               <div class="row pt-4 pb-4" id="project">
-                <div class="col-sm-12 card offset- border border-secondary border-4">
+                <div class="col-6 col-sm-12 card offset- border border-secondary border-4">
                   <div class="card-header">
                     <h1 class="fs-4 p-4 text-light bg-dark text-center  fw-bold  "> ServiceNow Fundamentals: </h1>
                   </div>
@@ -159,7 +164,7 @@
                   </div>
                 </div>
               </div>
-                <div class="col-sm-12">
+                <div class="col-5 col-sm-12 jp">
                   <div class="row">
                     <div class="col-sm-4">
                       <img class="border border-secondary border-2" src="./images/burnup report.png" width="300" height="350" />
@@ -182,7 +187,7 @@
             <div class="container1 ">
               <div class="row pb-4  ">
                 <!---Card-->
-                <div class="col-sm-5 card border border-secondary border-4 offset-1">
+                <div class="col-5  col-sm-5 card border border-secondary border-4 offset-1">
                   <div class="card-header">
                     <h1 class="fs-4 p-4 text-light bg-primary text-center  fw-bold "> NuCamp Coding
                       Bootcamp</h1>
@@ -207,36 +212,37 @@
                     </ul>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-12 col-sm-3 fe">
                   <img class="offset-1 border border-secondary border-4" src="./images/frontend.png" width="400" height="450" />
                 </div>
               </div>
               <div class="row pt-4 pb-4">
-                <div class="col-sm-4">
-                  <img class="offset-3 border border-secondary border-4" src="./images/backend.png" width="400" height="450" />
-                </div>
-                <div class="col-sm-5 card border border-secondary border-4 offset-2">
-                  <div class="card-header">
-                    <h1 class="fs-4 p-4 text-light bg-primary text-center  fw-bold  "> NuCamp
-                    Coding Bootcamp: </h1>
-                  </div>
-                  <div class="card-body">
-                    <h3 class="card-title text-center pt-3 fw-bold">Back End Development</h3>
-                    <h4 class="card-subtitle text-muted text-center pb-4">March 2021 --- June 2021 </h4>
-                        <ul class=" fs-5 text-dark pt-2 fw-bold">
-                          <li> Backend with Node Js -- Express + MongoDB + Mongoose.</li>
-                          <li> Worked on Nucampsite project and use following dependencies:</li>
-                          <ul>
-                            <li>Node and Express.</li>
-                            <li>
-                              MongoDB data Base.
-                            </li>
-                            <li>Created Server and Routers</li>
-                            <li>Authentication; passport and JSON Web Token-based Authentication. </li>
-                          </ul>
+                  <div class="col-5 col-sm-5 card border border-secondary border-4 offset-1">
+                    <div class="card-header">
+                      <h1 class="fs-4 p-4 text-light bg-primary text-center  fw-bold  "> NuCamp
+                        Coding Bootcamp: </h1>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center pt-3 fw-bold">Back End Development</h3>
+                      <h4 class="card-subtitle text-muted text-center pb-4">March 2021 --- June 2021 </h4>
+                      <ul class=" fs-5 text-dark pt-2 fw-bold">
+                        <li> Backend with Node Js -- Express + MongoDB + Mongoose.</li>
+                        <li> Worked on Nucampsite project and use following dependencies:</li>
+                        <ul>
+                          <li>Node and Express.</li>
+                          <li>
+                            MongoDB data Base.
+                          </li>
+                          <li>Created Server and Routers</li>
+                          <li>Authentication; passport and JSON Web Token-based Authentication. </li>
                         </ul>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                  <div class="col-12 col-sm-3 be">
+                    <img class="offset-1 border border-secondary border-4" src="./images/backend.png" width="400" height="450" />
+                  </div>
+              
               </div>
             </div>
           </div>
@@ -245,7 +251,7 @@
         <div class="jumbotron  pt-4 " id="projects">
           <div class="container1 container ">
             <div class="row text-center projdiv">
-              <div class="col-sm-12 card border border-secondary border-4">
+              <div class="col-7 col-sm-12 card border border-secondary border-4">
                 <div class="card-header">
                   <h1 class="fs-4 p-4 text-light bg-dark text-center  fw-bold  "> NuCamp Coding Bootcamp:</h1>
                 </div>
@@ -265,10 +271,10 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-sm-12 text-center mt-3 ">
+              <div class="col-7 col-sm-12 text-center mt-3 ncp ">
                 <img class=" border border-secondary border-4" src="./images/ssfoodprojectpic.png" width="700" height="500">
               </div>
-              <div>
+              <div class="col-8" >
                     <button class="bg-secondary mt-2 offset-"><a class="text-light fw-bold"
                         href="https://ssfood-delivery-app.netlify.app">Ss-Foods</a></button>
               </div>
@@ -281,9 +287,13 @@
         </div>
         <div class="jumbotron mt-4" id="experience">
           <div  class="container">
-            <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Experience</h1>
              <div class="row ">
-                  <div class="col-sm-12 card border border-secondary border-4">
+                <div class="row">
+                  <div class="col-7 col-sm-12 ">
+                    <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Experience</h1>
+                  </div>
+                </div>
+                  <div class="col-7 col-sm-12 card border border-secondary border-4">
                     <div class="card-header">
                       <h1 class="fs-4 p-4 text-light bg-primary text-center  fw-bold  ">Hardrock Casino and hotel </h1>
                     </div>
@@ -300,7 +310,7 @@
                     </div>
                   </div>
               
-                  <div class="col-sm-6 pt-2 mt-4 card border border-secondary border-4 ">
+                  <div class="col-7 col-sm-6 pt-2 mt-4 card border border-secondary border-4 ">
                     <div class="card-header">
                       <h1 class="fs-4 p-4 text-light bg-dark text-center   fw-bold  ">Samsung Mobiles  </h1>
                     </div>
@@ -315,7 +325,7 @@
                     </div>
                   </div>
                   <br>
-                    <div class="col-sm-6 card pt-2 mt-4   border border-secondary border-4">
+                    <div class="col-7 col-sm-6 card pt-2 mt-4   border border-secondary border-4">
                       <div class="card-header">
                         <h1 class="fs-4 p-4 text-light bg-dark text-center  fw-bold  ">SHaraf DG </h1>
                       </div>
@@ -333,8 +343,12 @@
                       </div>
                 </div>
                 <div class="row">
-                    <h2 class="text-center"><strong><u>Assessments</u></strong></h2>
-                    <div class="col-sm-8">
+                      <div class="row">
+                        <div class="col-7 col-sm-12 ">
+                          <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Assessments</h1>
+                        </div>
+                      </div>
+                    <div class="col-7 col-sm-8">
                       <h3 class="text-center bg-secondary text-light"><strong><u>Software developer fit: </u></strong></h3>
                       <p class="text-center">July 2021 </p>
                       <p class="text-center">Tests the tendency to prioritize quality over speed or efficiency. Also evaluates the enjoyment of
@@ -345,13 +359,13 @@
                         preferring a quick work
                         pace when completing tasks. </p>
                     </div>
-                    <div class="col-sm-4 text-center ">
+                    <div class="col-7 col-sm-4 text-center ">
                       <img class=" border border-secondary border-2" src="./images/indeed.png" width="400" height="350" />
                     </div>
-                    <div class="col-sm-4 text-center ">
+                    <div class="col-7 col-sm-4 text-center ">
                       <img class=" border border-secondary border-2" src="./images/indeed.png" width="400" height="350" />
                     </div>
-                      <div class="col-sm-6">
+                      <div class="col-7 col-sm-6">
                         <h3 class="pt-4 "><strong><u>Work Style: Reliability — Highly Proficient: </u></strong></h3>
                         <p class="text-center">August 2020:</p>
                         <p>Tendency to be dependable and come to work. Full results: Highly Proficient.<br>
@@ -360,21 +374,25 @@
                         day on the job.</p>
                       </div>
                       <br>
-                      <div class="col-sm-6 pt-4">
+                      <div class="col-7 col-sm-6 pt-4">
                         <h3 class="text-center bg-secondary text-light"><strong><u>Data Entry: Accuracy — Proficient: </u></strong></h3>
                         <p class="text-center"> October 2020 </p>
                         <p>Entering data quickly and accurately. Full results: Proficient.<br> We recommend that you use this test in combination with other selection and hiring processes to measure only the
                         knowledge, skills, abilities, and other characteristics that are 1) job-related and 2) required for a candidate’s first
                         day on the job.</p>
                       </div>
-                        <div class="col-sm-4 text-center ">
+                        <div class="col-7 col-sm-4 text-center ">
                           <img class=" border border-secondary border-2" src="./images/data entry.png" width="400" height="350" />
                         </div>
                   </div>
                 </div>
                 <div class="row" id="resume">
-                  <h2>Resume | Cover Letter</h2>
-                  <div class="col-sm-6">
+                    <div class="row">
+                      <div class="col-7 col-sm-12 ">
+                        <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold ">Cover Letter | Resume</h1>
+                      </div>
+                    </div>
+                  <div class="col-7 col-sm-6">
                       <img class="border border-secondary border-2" src="./images/cover letter.png" width="600" height="550" />
                   </div>
                   <div class="col-sm-6">
@@ -389,14 +407,14 @@
           <div class="jumbotron " id="contact">
             <div class="container ">
               <div class="row text-center">
-                <div class="col-sm-6 pb-4 mb-4">
+                <div class="col-7 col-sm-6 pb-4 mb-4">
                   <h3 class="bgshadow2"><strong>My contact Info:</strong></h3>
                   <p class="label  darkk pt-4">Phone #: </p>
                   <p><a href="tel:718-674-4990">718-674-4990</a></p>
                   <p class="label darkk">Email:</p>
                   <p><a href="mailto:salmoonsamuel@gmail.com?subject=You%20are%20hired!!">salmoonsamuel@gmail.com</a></p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-7 col-sm-6">
                   <h3 class="text-center bgshadow2 darkk"><strong>Submit a Feedback</strong> </h3>
                 
                   <div class="col-sm-8">
@@ -441,7 +459,7 @@
                   <li><a class="text-info" href="#contact">Contact</a></li>
                 </ul>
               </div>
-              <div class="col-6 col-sm-5 text-center">
+              <div class="col-4 col-sm-5 text-center">
                 <h5 class="text-light">Follow Me @</h5>
                 <br>
                   <a class="text-info mx-4" href="linkedin.com/in/salmoon-samuel-67978190">
@@ -455,7 +473,7 @@
                   </a>
                 <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
               </div>
-              <div class="col-sm-4 text-center ">
+              <div class="col-12 col-sm-4 text-center ">
                 <a class="text-info" role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone fa-lg text-light"></i>
                   Tel: 718-6744990</a><br />
                 <a class="text-info" role="button" class="btn btn-link" href="mailto:salmoonsamuel08@gmail.com"> <i
