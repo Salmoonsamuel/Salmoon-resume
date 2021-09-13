@@ -68,7 +68,9 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background:rgb(247, 243, 243);
+  /* background: linear-gradient(steelblue , rgb(240, 234, 202), rgb(243, 187, 177)); */
+  /* background:rgb(247, 243, 243); */
+  background: linear-gradient(rgb(174, 200, 221), steelblue,  rgb(174, 216, 166));
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -288,7 +290,8 @@ Sidebar
   width: 20%;
   height: 100%;
   /* background: rgba(216, 216, 216, 0.9); */
-  background:rgba(214, 210, 210, 0.9);
+  /* background:rgba(214, 210, 210, 0.9); */
+  background: linear-gradient(steelblue, rgb(240, 234, 202));
   display: grid;
   grid-template-rows: auto 1fr auto;
   row-gap: 1rem;
@@ -315,7 +318,9 @@ footer{
 
 }
 .bgshadow{
-  background-color: rgba(211, 208, 206, 0.4);
+  /* background-color: rgba(211, 208, 206, 0.4); */
+  /* background: linear-gradient(steelblue , rgb(240, 234, 202), rgb(243, 187, 177)); */
+  background: linear-gradient(rgb(240, 234, 202), steelblue);
   padding: 1rem;
   margin-bottom: 1rem;
 }
@@ -355,4 +360,9 @@ p:hover{
 li:hover{
   font-size: 25px;
 
+}
+.bggradient{
+  background: linear-gradient(rgb(240, 234, 202), steelblue);
+    padding: 1rem;
+  margin-bottom: 1rem;
 }
