@@ -286,7 +286,7 @@ li:hover{
 
 }
 .bggradient{
-  background: linear-gradient(rgb(240, 234, 202), steelblue);
+  background: linear-gradient(rgb(199, 195, 177), steelblue);
     padding: 1rem;
   margin-bottom: 1rem;
 }
