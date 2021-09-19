@@ -310,13 +310,19 @@ li:hover{
 .imgCont {
   position: relative;
   text-align: center;
-
+  animation-name:color;
+  animation-duration: 4s;
   text-shadow: rgb(110, 57, 57);
+}
+
+@keyframes color {
+  from
 }
 
 
 .centered {
   position: absolute;
+  width:550px;
   top: 58%;
   left: 28%;
   transform: translate(-50%, -50%);
@@ -324,4 +330,11 @@ li:hover{
   border-radius: 10%;
     color:black;
   text-shadow: black;
+}
+
+.size{
+  font-size: 15px;
+}
+.centered:hover {
+   background-color: rgb(31, 27, 23);
 }
