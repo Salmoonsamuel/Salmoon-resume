@@ -315,15 +315,11 @@ li:hover{
   text-shadow: rgb(110, 57, 57);
 }
 
-@keyframes color {
-  from
-}
-
 
 .centered {
   position: absolute;
   width:550px;
-  top: 58%;
+  top: 48%;
   left: 28%;
   transform: translate(-50%, -50%);
   /* background-color: rgba(78, 90, 90, 0.4); */
@@ -336,5 +332,9 @@ li:hover{
   font-size: 15px;
 }
 .centered:hover {
-   background-color: rgb(31, 27, 23);
+  background-color: rgb(31, 27, 23);
+}
+.imghead{
+
+  border-radius: 10%;
 }
