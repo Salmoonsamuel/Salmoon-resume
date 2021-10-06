@@ -313,8 +313,11 @@ li:hover{
   animation-name:color;
   animation-duration: 4s;
   text-shadow: rgb(110, 57, 57);
+  
 }
-
+.bgimage{
+  background-image: url(./images/IMG_1760_Original.jpg);
+}
 
 .centered {
   position: absolute;
@@ -329,7 +332,8 @@ li:hover{
 }
 
 .size{
-  font-size: 15px;
+  font-size: 25px;
+  text-shadow:1px 5px black;
 }
 .centered:hover {
   background-color: rgb(31, 27, 23);
