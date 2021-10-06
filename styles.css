@@ -342,3 +342,7 @@ li:hover{
 
   border-radius: 10%;
 }
+.drounded{
+  border: solid px black;
+  border-radius: 30%;
+}
