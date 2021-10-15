@@ -70,7 +70,7 @@ body {
   font-family: var(--ff-secondary);
   /* background: linear-gradient(steelblue , rgb(240, 234, 202), rgb(243, 187, 177)); */
   /* background:rgb(247, 243, 243); */
-  background: linear-gradient(rgb(90, 94, 97), steelblue,  rgb(174, 216, 166));
+  background-color: rgba(0, 0, 0, 0.5);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -147,6 +147,9 @@ p {
   h4 {
     line-height: 1;
   }
+}
+@media screen and (min-width: 414px) {
+
 }
 
 /*  global classes */
@@ -322,7 +325,7 @@ li:hover{
 .centered {
   position: absolute;
   width:550px;
-  top: 48%;
+  top: 70%;
   left: 28%;
   transform: translate(-50%, -50%);
   /* background-color: rgba(78, 90, 90, 0.4); */
