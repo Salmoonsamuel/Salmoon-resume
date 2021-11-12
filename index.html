@@ -1,507 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salmoon's Resume</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark">
-        <div class="container-fluid offset-4">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link  fw-bold mx-4 active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#professional">Professional-skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  mx-2" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Projects
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item bg-success text-info" href="#jira">Jira Project</a></li>
-                  <li><a class="dropdown-item bg-dark text-info" href="#food">Food-Delivery App</a></li>
-                  <li><a class="dropdown-item  bg-danger text-info" href="#game">Mind Game</a></li>
-                  <li><a class="dropdown-item  bg-danger text-info" href="#jokes">Random-Jokes</a></li>
-                  <li><a class="dropdown-item  bg-success text-info" href="#resume">Resume & Cover letter</a></li>
-                  <li><a class="dropdown-item  bg-dark text-info" href="#assessments">Assessments</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Salmoon Samuel | Web Developer</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Salmoon Samuel</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="assets/images/IMG_3350.jpg" alt="Ss" loading="lazy" class="hero-img" />
+        <div class="bio animate__animated animate__shakeX ">
+            <h2 class="bio-title text-center">About Me</h2>
+            <p class="bio-text text-center">
+            Developer | Innovator | Creative Thinker | Tech-Savvy
+            </p>
         </div>
-      </nav>
-    </header>
-      <main>   
-            <div class="container " id="professional">
-                    <div class="row mt first">
-                        <!-- <img src="images/photo-1484417894907-623942c8ee29.jpeg" alt="Snow" style="width:100%;"> -->
-                        <div class="col-4 col-sm-12 text-center bgheader shadow" id="home">
-                          <!-- <img class="imghead" src="./images/IMG_1760_Original.jpg" width="150" height="200"> -->
-                          <!-- <h1 class="text-center text-light pt-4 pb-4 fw-bold ">Salmoon Samuel</h1> -->
-                          <h1 class=" text-center fw-bold  bgshadow4  text-dark pb-2 pt-1 ">Salmoon Samuel </h1>
-                          <h4 class="fw-bold fs-4 pt-4 text-dark pb-1 "> Developer | Innovator | Creative thinker | Tech-savvy</h4>
-                          <p class=" text-light fw-bold ">I have a great desire to learn and want to continuously improve.<br> I
-                            am Self-Organized. I want to work in a professional & challenging<br> environment and to achieve highest
-                            Possible
-                            goals according to the <br>
-                            policy of the company. </p>
-                          <div class=" col-4 col-sm-12 ">
-                            <ul class="text-center ">
-                              <li class="mx-2 pt-4 pb-4 drounded">
-                                <a class="text-light fs-5 " href="https://github.com/Salmoonsamuel" target="_blank">
-                                  Github
-                                  <i class="fab fa-github"></i>
-                                </a>
-                                <a class="text-warning fs-5 mx-2" href="https://linkedin.com/in/salmoon-samuel-67978190" target="_blank">
-                                  Linkedin
-                                  <i class="fab fa-linkedin "></i>
-                                </a>
-                                <a class="text-danger fs-5 " href="mailto:salmoonsamuel@gmail.com?subject=You%20are%20hired!!"
-                                  target="_blank">
-                                  Email
-                                  <i class="fas fa-at"></i>
-                                </a>
-                                <a class=" mx-2  text-light fw-bold fs-5" href="#resume" target="_blank">Resume | Cover Letter</a>
-                              </li>
-                            </ul>
-                    
-                          </div>
-                       </div>
-                    </div>
-                <div class="row pt-4" >
-                    <div class="col-4 col-sm-12 drounded  bg-secondary text-center">
-                      <h1 class="fs-1  text-center bgshadow3 drounded text-light pb-2 bg-dark  pt-4 " > Professional Skills:</h1>
-                      <div class="col-4 col-sm-12 d-flex bgshadow2 mt-4  offs">
-                        <h3 class="fs-3 mx-2 bgshadow4">Html<i class="fab fa-html5 text-primary fs-2 "></i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">Css <i class="fab fa-css3-alt text-info fs-2"> </i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">Javascript <i class="fab fa-js text-warning fs-2"> </i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">Java <i class="fab fa-java text-warning fs-2"> </i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">React <i class="fab fa-react text-info fs-2"> </i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">SQL / MySQL <i class="fas fa-drum-steelpan text-primary fs-2"> </i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4 ">ServiceNow<i class="fas fa-user-circle text-success fs-2 "></i> </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">Agile </h3>
-                        <h3 class="fs-3 mx-2 bgshadow4">Scrum</h3>
-                      </div>
-                  </div>
-                </div>
-                
-                <div class="row bg-secondary drounded text-center " >
-                  <div class="col-5 col-sm-5 pt-4 mt-4 bggradient card  border  border-secondary border-4 ">
-                    <div class="card-header bgshadow2">
-                      <h1 class="fs-2  text-light bg-dark  drounded p-4 fw-bold text-center fw-bold ">ServiceNow Fundamentals</h1>
-                    </div>
-                      <div class="card-body">
-                        <h3 class="card-title text-center pt-3 fw-bold">New Apprenticeship | Bootcamp</h3>
-                        <h4 class="card-subtitle text-muted pb-4 text-center">July 2021 --- September 2021 </h4>
-                        <div class="row ">
-                            <div class="col-sm-12">
-                                <ul class=" fs-5 text-dark fw-bold">
-                                  <h3  class="fs-3 pb-3 fw-bold"><u>ITILFoundation</u> </h3>
-                                    <li class="fs-4 ">ITIL 3 lifecycles and concepts</li>
-                                      <li class="fs-5 pb-4"> Agile Methodology / Software Development lifecycle / Scrum Methodology </li>
-                                  <h3 class="fs-3 pb-3 fw-bold"><u>ServiceNow Fundamentals</u> </h3>
-                                    <li class="fs-4 pb-1">- ServiceNow Simulator Activities Including:</li>
-                                    <li class="fs-4 pb-4">- Task Management / Creating Incident and Reports  / Service Catalog Management / Knowledge base Management / Database Administration / Self-Service and Process Automation / Scripting / Development. </li>
-                                </ul>
-                            </div>
-                            <hr>
-                        </div>
-                      </div>   
-                  </div>
-                  <div class="col-5 col-sm-5 bggradient offset-2 mt-4 card border border-secondary border-4 ">
-                    <div class="card-header  bgshadow2">
-                      <h1 class="fs-2  text-light bg-dark drounded p-4 fw-bold text-center  fw-bold "> NuCamp Coding Bootcamp</h1>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title text-center pt-3 fw-bold">Full-Stack Web-Development</h3>
-                      <h4 class="card-subtitle fw-bold text-muted text-center pb-4">March 2021 --- June 2021 </h4>
-                      <div class="row pt-4">
-                      <div class="col-sm-12">
-                        <ul class=" fs-5 text-dark fw-bold">
-                          <h3 class="fs-3 pb-3 fw-bold"><u>Front-End Development</u> </h3>
-                          <li class="fs-4 ">Bootstrap: Responsive with Bootstrap</li>
-                          <a href="./certificates/Front_End_Web_UI_Frameworks_and_Tools_Bootstrap_4-Bootstrap_Course_Certificate_7291.pdf">Certificate
-                            of Completion</a> </li>
-                          <li class="fs-5 pb-4"> React / React-Native: Dynamic with React </li>
-                          <a href="./certificates/Dynamic_with_React-React_Course_Certificate_7292.pdf">Certificate of
-                            Completion</a>
-                          <h3 class="fs-3 pb-3 fw-bold"><u>Back-End Development</u> </h3>
-                         
-                          <li class="fs-4 pb-1">Express + MongoDB + Node-js </li>
-                            <a href="./certificates/Backend_with_NodeJS-NodeJS_Express_and_MongoDB_Course_Certificate_8392.pdf">Certificate of
-                              Completion</a>
-                          <li class="fs-4 pb-4">Learned How to create Router and servers. <br> Learned different Authentication methods like Passport and JSON Web Token-based Authentications.</li>
-                        
-                          <li class="fs-4 pb-4">Worked On full stack website project.</li>
-                          <a href="./certificates/Backend_with_NodeJS-Full_Stack_Web_and_Mobile_Development_Certificate_8531.pdf">Certificate of
-                            Completion Full-Stack Web Development</a>
-                        </ul>
-                        <hr>
-                      </div>
-                      </div>
-                  
-                    </div>
-              </div>
-              <div class="row pb-4 ">
-                
-                </div>
-              
-              </div>
-          </div>   
-          <br>
-          <hr>
-         <div class="jumbotron  pt-4 " id="jira">
-           <div class="container1 container ">
-                  <div class="row pt-4 pb-4 text-center" >
-                      <div class="col-5 col-sm-12 ">
-                        <h1 class="fs-1 p- text-dark bgshadow2 text-center  fw-bold "> Projects</h1>
-                      </div>
-                      <div class="col-5 col-sm-6 drounded  bg-secondary  mb-4">
-                          <h2 class="bgshadow mt-4 fs-2 fw-bold  drounded bg-secondary">ServiceNow Project </h2>Sales App Project</h2>
-                          <p>Loom Video</p>
-                        <video width="520" height="340" controls>
-                          <source src="./images/sales app.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
-                      <div class="col-4 col-sm-6 drounded card offset- border border-secondary border-4 bg-secondary">
-                        <div class="card-header">
-                          <h1 class="fs-2 p-4 text-dark bggradient text-center drounded fw-bold  ">Jira Project</h1>
-                        </div>
-                        <div class="card-body">
-                          <h3 class="card-title text-center pt-3 fw-bold">Agile Methodolgy</h3>
-                          <h4 class="card-subtitle text-muted text-center pb-4"></h4>
-                          <ul class=" fs-5 text-dark pt-2 fw-bold">
-                            <li> Created the issue "user story" and added into the sprint.</li>
-                            <ul>
-                              <li>Designed the task Board. </li>
-                              <li>Setup the Backlog.</li>
-                              <li>Assign the Tasks and set the story point estimate. </li>
-                            </ul>
-                              <p class="text-info">Click below links to see some projects demonstration pics</p>
-                              <li ><a class="text-warning" href="./images/baklog.png">Backlog creation</a> </li>
-                              <li><a href="./images/board.png">User Stories</a> </li>
-                          </ul>
-                        </div>
-                      </div>
-                    
-                  </div>
-            <div class="row text-center" id="food">
-              <div class="col-5 col-sm-6 card border border-secondary border-4 bg-secondary ">
-                <div class="card-header">
-                  <h1 class="fs-2 p-4 text-dark  bggradient drounded text-center  fw-bold  "> Food Delivery App Project</h1>
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title text-center pt-3 fw-bold">Responsive Design with dynamic forms | npm | Github</h3>
-                  
-                  <ul class=" fs-5 text-dark pt-2 fw-bold">
-                    <li> I used Following programming languages in this project:</li>
-                    <ul>
-                      <li>Html / CSS / Javascript / Bootstrap 5.0.</li>
-                      <li>
-                         Npm to install dependencies like Font-Awesome / Social icons / Jquery.
-                      </li>
-                      <li>Github to save my code in repository for future use.</li>
-                      <li>Netlify to deploy my project.</li>
-                    </ul>
-                  </ul>
-                </div>
-                
-              </div>
-              <div class="col-5 col-sm-6 text-center mt-3 ncp ">
-                <img class=" border border-secondary border-4" src="./images/ssfoodprojectpic.png" width="600" height="500">
-                    <div class=" pb-4">
-                      <button class="bg-dark px-3  mt-2 "><a class="text-info fs-4" href="https://ssfood-delivery-app.netlify.app"
-                          target="_blank">Start</a></button>
-                    </div>
-              </div>
-          
-        
-            </div>
-            <div class="row text-center pt-4" id="game">
-              <div class="col-5 col-sm-6 card border border-secondary border-4 bg-secondary">
-                <div class="card-header">
-                  <h1 class="fs-2 p-4 text-dark drounded bggradient text-center  fw-bold  "> Number-Guess Game </h1>
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title text-center pt-3 fw-bold">Javascirpt | Font-Awesome |npm | Git</h3>
-                                <ul class=" fs-5 text-dark pt-2 fw-bold">
-                                  <li> I used Following programming languages in this project:</li>
-                                  <ul>
-                                    <li>Html / CSS / Javascript / Bootstrap 5.0.</li>
-                                    <li>
-                                      Npm to install dependencies like Font-Awesome / Social icons / Jquery.
-                                    </li>
-                                    <li>Github to save my code in repository for future use.</li>
-                                    <li>Netlify to deploy my project.</li>
-                                  </ul>
-                </div>
-              </div>
-                    <div class="col-5 col-sm-6 text-center mt-3 ncp ">
-                      <img class=" border border-secondary border-4" src="./images/Screen Shot 2021-09-13 at 1.37.55 AM.png" width="600"
-                        height="500">
-                        <div class=" pb-4">
-                          <button class="bg-dark px-3  mt-2 "><a class="text-info fs-4" href="https://mind-game.netlify.app/"
-                              target="_blank">Start</a></button>
-                        </div>
-                    </div>
-            </div>
-            <div>
-              <div class="col-5 col-sm-12 drounded text-center  bg-secondary  mb-4" id="jokes">
-                <h2 class="bgshadow mt-4 fs-2 fw-bold  drounded bg-secondary">Random Jokes </h2>
-                <h3>Chuck Norris Random Jokes</h3>
-                <p>Responsive website with Html / CSS / Javascript</p>
-                <img class=" border border-secondary border-4" src="./images/jokes.png" width="600"
-                  height="500">
-                <div class=" pb-4">
-                  <button class="bg-dark px-3  mt-2 "><a class="text-info fs-4" href="https://salmoonsamuel.github.io/Random-Jokes/"
-                      target="_blank">Start</a></button>
-                </div>
-              </div>
-            </div>
-      
-          </div>
-         </div>
-         <div class="jumbotron mt-4" id="experience">
-          <div  class="container">
-             <div class="row ">
-                <div class="row">
-                  <div class="col-5 col-sm-12 ">
-                    <h1 class="fs-1 p- text-dark bgshadow2 text-center  fw-bold "> Experience</h1>
-                  </div>
-                </div>
-                  <div class="col-5 col-sm-12 card border border-secondary border-4">
-                    <div class="card-header">
-                      <h1 class="fs-2 p-4 text-dark bggradient text-center drounded fw-bold  ">Hardrock Casino and hotel </h1>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title text-center pt-3 fw-bold">Marketing Co-Ordinator:</h3>
-                      <h4 class="card-subtitle text-muted text-center pb-4">June 2018 --- April 2020 </h4>
-                      <ul class=" fs-5 text-dark pt-2 fw-bold">
-                          <p> In marketing coordinator position I worked at the players club , I handle customer
-                            data, plus issue cards to players , issue promotions or update their information in system.
-                            Help in different type of marketing activities like bingo game, slot tournament,
-                            sweepstakes.
-                            Plus handle angry customers and solve their problems .</p>
-                      </ul>      
-                    </div>
-                  </div>
-              
-                  <div class="col-5 col-sm-6 pt-2 mt-4 card border border-secondary border-4 ">
-                    <div class="card-header">
-                      <h1 class="fs-2 p-4 text-dark bggradient drounded text-center fw-bold ">Samsung Mobiles  </h1>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title text-center pt-3 fw-bold">Senior Samsung Galaxy Consultant</h3>
-                      <h4 class="card-subtitle text-muted text-center pb-4">April 2014 --- October 2015.</h4>
-                      <ul class=" fs-5 text-dark pt-2 fw-bold">
-                        <p>1- My job was to explain the features of new products.<br> 2- Help the customers according to
-                          their needs.<br> 3- Solve the customers problems.<br> 4- Promote the new products.<br>5-Sell the accessories with the products.<br>
-                        6- Try to convince customers to buy extended Warranty.</p>
-                      </ul>
-                    </div>
-                  </div>
-                  <br>
-                    <div class="col-5 col-sm-6 card pt-2 mt-4   border border-secondary border-4">
-                      <div class="card-header">
-                        <h1 class="fs-2 p-4 text-dark bggradient drounded text-center fw-bold ">Sharaf DG </h1>
-                      </div>
-                      <div class="card-body">
-                        <h3 class="card-title text-center pt-3 fw-bold">Senior Sales Executive</h3>
-                        <h4 class="card-subtitle text-muted text-center pb-4">October 2011 to April 2014</h4>
-                        <ul class=" fs-6 text-dark pt-2 fw-bold">
-                          <p>1- Handled the team of 5 people.<br>2- Deal with Mobile Phones, Tablets ( Nokia, Samsung, Apple,
-                            Blackberry, Lenovo, Hawaii / Samsung )Deal with cameras including DSLR,
-                            Digital cameras, Camcorders.<br>3- Providing information to customers to help them select the
-                            best Product according to their needs.<br>4-Satisfy the customer customer with best customer service. Identifying the
-                            customers who need assistance on the floor.<br>5- Taking delivery of stocks from supplier or
-                            stock room.</p>
-                        </ul>
-                      </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container" id="assessments">
-                <div class="row ">
-                  <div class="col-5 col-sm-12 ">
-                    <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold "> Assessments</h1>
-                  </div>
-                </div>
-                <div class="row ">
-                <div class="col-5 col-sm-6">
-                  <h3 class="p-2 text-center bg-secondary text-light"><strong><u>Software developer fit: </u></strong></h3>
-                  <p class="text-center">July 2021 </p>
-                  <p class="text-center">Tests the tendency to prioritize quality over speed or efficiency. Also evaluates the
-                    enjoyment of
-                    analyzing complex
-                    issues with a logical approach, of thinking of new or unconventional approaches to completing work
-                    tasks and solving
-                    problems, of learning and gaining a deep understanding of how things work, and of being busy and
-                    preferring a quick work
-                    pace when completing tasks. </p>
-                </div>
-                <div class="col-5 col-sm-5 text-center mb-4 ">
-                  <img class=" border border-secondary border-2" src="./images/indeed.png" width="500" height="350" />
-                </div>
-              
-                <div class="row offset-1 ">
-                  <div class="col-5 col-sm-6">
-                    <h3 class="p-2 bg-secondary text-light "><strong><u>Work Style: Reliability — Highly Proficient: </u></strong>
-                    </h3>
-                    <p class="text-center">August 2020:</p>
-                    <p>Tendency to be dependable and come to work. Full results: Highly Proficient.<br>
-                      We recommend that you use this test in combination with other selection and hiring processes to measure only the
-                      knowledge, skills, abilities, and other characteristics that are 1) job-related and 2) required for a
-                      candidate’s
-                      first
-                      day on the job.</p>
-                  </div>
-                  <div class="col-5 col-sm-5 text-center mb-4 ">
-                    <img class=" border border-secondary border-2" src="./images/indeed.png" width="500" height="350" />
-                  </div>
-                </div>
-                <div class="row"></div>
-                <div class="col-5 col-sm-6 pt-4">
-                  <h3 class="text-center bg-secondary text-light"><strong><u>Data Entry: Accuracy — Proficient: </u></strong></h3>
-                  <p class="text-center"> October 2020 </p>
-                  <p>Entering data quickly and accurately. Full results: Proficient.<br> We recommend that you use this test in
-                    combination with other selection and hiring processes to measure only the
-                    knowledge, skills, abilities, and other characteristics that are 1) job-related and 2) required for a candidate’s
-                    first
-                    day on the job.</p>
-                </div>
-                <div class="col-5 col-sm-5 text-center ">
-                  <img class=" border border-secondary border-2" src="./images/data entry.png" width="500" height="350" />
-                </div>
-              </div>
-           </div>
-           <hr>
-          </div>
-          <div class="container pt-4">
-            <div class="row" id="resume">
-              <div class="row">
-                <div class="col-5 col-sm-12 ">
-                  <h1 class="fs-2 p- text-dark bgshadow2 text-center  fw-bold ">Let's Work Together</h1>
-                </div>
-              </div>
-              <div class="col-5 col-sm-6">
-                <img class="border border-secondary border-2" src="./images/cover letter.png" width="600" height="550" />
-              </div>
-              <div class="col-5 col-sm-6">
-                <img class="border border-secondary border-2" src="./images/resume.png" width="600" height="550" />
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="jumbotron " id="contact">
-            <div class="container ">
-              <div class="row text-center">
-                <div class="col-5 col-sm-6 pb-4 mb-4">
-                  <h3 class="bgshadow2"><strong>My contact Info:</strong></h3>
-                  <p class="label  darkk pt-4">Phone #: </p>
-                  <p><a href="tel:718-674-4990">718-674-4990</a></p>
-                  <p class="label darkk">Email:</p>
-                  <p><a href="mailto:salmoonsamuel@gmail.com?subject=You%20are%20hired!!">salmoonsamuel@gmail.com</a></p>
-                </div>
-                <div class="col-5 col-sm-6">
-                  <h3 class="text-center bgshadow2 darkk"><strong>Submit a Feedback</strong> </h3>
-                
-                  <div class="col col-sm-8">
-                    <div class="text-center">
-                      <form action="https://formspree.io/f/xgepakee" method="POST">
-                        <div>
-                          <label for="user-name" class="label darkk offset-3">Name:</label>
-                          <input id="user-name" type="text" name="name">
-                        </div>
-                       <br>
-                       <div>
-                              <label for="user-email" class="label darkk offset-3">Email:</label>
-                              <input id="user-email" type="text" name="email">
-                       </div>
-                   
-                        <br>
-                        <div>
-                            <label for="user-message" class="label darkk offset-3">Message:</label>
-                            <textarea id="user-message" name="message"></textarea>
-                            <br>
-                            <button type="submit" class="label text-dark darkn offset-3">Submit</button>
-                        </div>
-                      
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                  <div>
-                    <a class="mx-4 fw-bold fs-3 text-dark" href='#home'> Home <i class="fa fa-arrow-up"></i></a>
-                  </div>
-      
-              </div>
-            </div>
-            
-          </div>
-      </main>
-        <footer class="bgshadow2 bg-secondary">
-          <div class="container">
-            <div class="row">
-              <div class="col-4 col-sm-2 offset-1">
-            
-                <ul class="list-unstyled">
-                  <li class="fs-4"><a class="text-light" href="#">Home</a></li>
-                  <li class="fs-5"><a class="text-info" href="#experience">Experience</a></li>
-                  <li class="fs-4"><a class="text-light" href="#jira">Projects</a></li>
-                  <li class="fs-5"><a class="text-info" href="#contact">Contact</a></li>
-                </ul>
-              </div>
-              <div class="col-4 col-sm-5 text-center">
-                <h5 class="text-light fs-4 fw-bold">Follow Me @</h5>
-                <br>
-                  <a class="text-info mx-4 fs-5" href="linkedin.com/in/salmoon-samuel-67978190">
-                    Linkedin
-                    <i class="fab fa-linkedin"></i>
-                  </a>
+    </section>
 
-                  <a class="text-info fs-5" href="https://github.com/Salmoonsamuel">
-                    Github
-                    <i class="fab fa-github"></i>
-                  </a>
-                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-              </div>
-              <div class="col-12 col-sm-4 text-center ">
-                <a class="text-info fs-4" role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone fa-lg text-light"></i>
-                  Tel: 718-6744990</a><br />
-                <a class="text-info fs-5" role="button" class="btn btn-link" href="mailto:salmoonsamuel08@gmail.com"> <i
-                    class="fa fa-envelope  fa-lg text-light"></i>Email: salmoonsamuel08@gmail.com</a>
-              </div>
+    <!-- More about -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+            autem deleniti cupiditate molestias quis unde quae totam porro dicta
+            iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+            nostrum dolor minus, libero delectus praesentium perferendis
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+            consequuntur labore? Ea totam voluptas amet!
+        </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+    
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
             </div>
-          </div>
-        </footer>
-    <!-- javascript -->
+    
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Expense Tracker</h3>
+                <p class="project-details">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Netflix Clone</h3>
+                <p class="project-details">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Greeny Earth</h3>
+                <p class="project-details">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+                            required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                            class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+        <div class="socials">
+            <a href="#" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy"
+                    class="socicon" /></a>
+            <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
+                    class="socicon" /></a>
+            <a href="#" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy"
+                    class="socicon" /></a>
+            <a href="#" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+        </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+            alt="" /></i>
+
+    <!-- Footer section -->
+    <footer>
+        <p class="copy">&copy; Copyright 2021</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="https://salmoonsamuel.github.io/Salmoon-resume/" target="_blank">Salmoon Samuel</a>
+        </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-  </body>
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
