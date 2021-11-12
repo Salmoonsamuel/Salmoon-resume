@@ -45,7 +45,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  background-color: antiquewhite;
+  background-color: rgb(190, 221, 217);
 }
 
 section {
@@ -111,12 +111,13 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  /* background-image: url(../images/photo-1484417894907-623942c8ee29.jpeg); */
 }
 
 .hero img {
   height: 37.5rem;
-  width: 28.5rem;
-  border-radius: 30%;
+  width: 37.5rem;
+  border-radius: 10%;
 }
 
 .bio {
