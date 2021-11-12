@@ -9,6 +9,9 @@
     <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
@@ -149,27 +152,31 @@
 
     <!-- Projects section -->
     <section class="projects" id="projects">
-        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <h2 class="projects-title">Recent Projects</h2>
         <div class="projects-container">
-            <div class="project-container project-card">
-                <img src="assets/images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic" />
-                <h3 class="project-title">Expense Tracker</h3>
-                <p class="project-details">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                    ratione vel inventore labore commodi modi quos culpa aut saepe!
-                    Alias!
-                </p>
-                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            <div class="project-container project-card bg-warning">
+                <h3 class="project-title">Jira Project</h3>
+                <img src="assets/images/board.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <ul class="project-details">
+                   <li>Agile Methodology</li>
+                   <li>Designed the task Board.</li>
+                   <li>Setup the Backlog.</li>
+                   <li>Created the issue "user story" and added into the sprint.</li>
+                   <li>Assign the Tasks and set the story point estimate.</li>
+                </ul>
             </div>
-            <div class="project-container project-card">
-                <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="project-pic" />
-                <h3 class="project-title">Netflix Clone</h3>
+            <div class="project-container project-card bg-info">
+                    <video width="220" height="140" controls>
+                        <source src="assets/images/sales app.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                <h3 class="project-title">Sales App <br> ServiceNow</h3>
                 <p class="project-details">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
                     ratione vel inventore labore commodi modi quos culpa aut saepe!
                     Alias!
                 </p>
-                <a href="#" target="_blank" class="project-link">Check it Out</a>
+                
             </div>
             <div class="project-container project-card">
                 <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic" />
@@ -189,7 +196,7 @@
         <h2>Get In Touch With Me</h2>
         <div class="contact-form-container">
             <div class="contact-form">
-                <form action="https://formspree.io/f/xyylngw" method="POST">
+                <form action="https://formspree.io/f/mqkwrarj" method="POST">
                     <div class="form-control">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
@@ -213,13 +220,19 @@
 
     <!-- Social accounts - Fixed to the right -->
         <div class="socials">
-            <a href="#" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy"
-                    class="socicon" /></a>
-            <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
-                    class="socicon" /></a>
-            <a href="#" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy"
-                    class="socicon" /></a>
-            <a href="#" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+            
+            <a href="https://linkedin.com/in/salmoon-samuel-67978190" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy"
+                    class="socicon" /></a>                        
+            <a href="https://github.com/Salmoonsamuel" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+            <!-- <a class="text-danger fs-5 " href="mailto:salmoonsamuel@gmail.com?subject=You%20are%20hired!!" target="_blank">
+                Email
+                <i class="fas fa-at"></i>
+            </a> -->
+            <a class="text-info fs-4" role="button" class="btn btn-link" href="tel:+12065551234"><i
+                    class="fa fa-phone fa-sm text-success"></i>
+            </a>
+            <a class="text-info fs-5" role="button" class="btn btn-link" href="mailto:salmoonsamuel08@gmail.com"> <i
+                    class="fa fa-envelope  fa-lg text-warning"></i></a>
         </div>
     <!-- Scroll to top -->
     <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
