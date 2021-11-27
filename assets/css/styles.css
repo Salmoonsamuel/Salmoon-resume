@@ -431,7 +431,14 @@ footer {
     max-width: 17.75rem;
   }
 }
-.bgColor{
+/* .bgColor{
    background-color: rgb(212, 186, 186, 0.5);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+} */
+
+.bgColor{
+  /* background-color: rgba(207, 207, 207);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
+   background-color: rgb(0, 0, 0);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
