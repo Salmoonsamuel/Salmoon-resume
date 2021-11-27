@@ -322,7 +322,7 @@ footer {
 
 /* General (utilities) */
 .icon-card {
-  background-color: #fff;
+  background-color:antiquewhite;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
@@ -330,7 +330,7 @@ footer {
 }
 
 .project-card {
-  background-color: #fff;
+  background-color:antiquewhite;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
