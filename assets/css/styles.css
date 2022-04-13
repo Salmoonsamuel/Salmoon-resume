@@ -65,20 +65,20 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: rgba(137, 186, 231, 0.5);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  box-shadow: 0 3px 5px rgba(141, 19, 19, 0.1);
 }
 
 nav h1 {
-  color: black;
+  
   padding-left: 5rem;
 }
 
 nav a {
-  color: black;
+  color: white;
   transition: var(--transition);
-
 }
+
 nav a:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
