@@ -38,22 +38,61 @@
         </button>
     </nav>
     <!-- Hero Section -->
-    <section class="hero pt-4" id="about">
-        <img class="border border-dark border-4 " src="assets/images/moonPic2.png" alt="Ss" loading="lazy" class="hero-img" />
-        <div class="bio animate__animated animate__shakeX bgColor ">
-            <h2 class="bio-title text-center ">Senior Tech-Support Associate</h2>
-            <h6 class="text-center">Infosys LTD</h6>
-            <p class="bio-text text-center fw-bold">
-            <span class='text-info'>ITIL Certified</span> | <span class="text-warning">Innovator</span> | <span class="text-success">Creative Thinker</span> | Tech-Savvy | <span class="text-danger">Complex Problem Solver</span>
-            </p>
-            <!-- <h6 class="text-center"><a class="text-info" href="./certificates/cover letter r.pdf">Cover-Letter </a> | <a class="text-warning" href="./certificates/SalmoonResume.pdf">Resume </a></h6> -->
-        </div>
+    <section id="about">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/moonScreen.png" width="400" height="500" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/photo-1484417894907-623942c8ee29.jpeg" width="400" height="500" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/unnamed.jpg"width="400" height="500" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
     </section>
+    <!-- <section class="hero pt-4" id="about">
+        <img class="border border-dark border-4 " src="assets/images/moonPic2.png" alt="Ss" loading="lazy" class="" />
+    </section>  -->
 
     <!-- More about -->
-    <div class="pt-1 ">
+    <div >
         <section class="more-about mt-4 bg-dark text-light">
-            <h2>About Me</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col bio animate__animated animate__shakeX bgColor ">
+                        <h2 class="bio-title text-center text-light" >Senior Tech-Support Associate</h2>
+                        <h6 class="text-center fw-bold text-dark" >Infosys LTD</h6>
+                        <p class="bio-text text-center fw-bold">
+                            <span class='text-dark'>ITIL Certified</span> | <span class="text-dark">Innovator</span> | <span
+                                class="text-dark">Creative Thinker</span> | <span class="text-dark">Tech-Savvy</span> | <span class="text-dark">Complex Problem
+                                Solver</span>
+                        </p> 
+                        <h6 class="text-center"><a class="text-info fw-bold" href="./certificates/cover letter r.pdf">Cover-Letter </a> | <a
+                                class="text-info fw-bold" href="./certificates/SalmoonResume.pdf" target="_blank">Resume </a></h6>
+                    </div>
+                </div>
+            </div>
             <p class="text-center">
                 I have a great desire to learn and want to continuously improve.
                 I am Self-Organized. <br> I have Time management Skills. I love to work with Teams and groups. I have Leadership skills. <br>I want to work in a professional & challenging
@@ -63,13 +102,15 @@
             <p class="text-center">Click the link to see assessment results, i did through indeed.com. <br><a
                     class="text-dark" href="#assessments">Indeed Assessments</a></p>
         </section>
-    </div>
+    
 
     <!-- Skills section -->
     <section class="skills bg-secondary" id="skills">
-        <h2 class="skill-header bgColor pt-3 pb-3">My Top Skills</h2>
-    
+        
         <div class="skills-wrapper pb-4">
+
+            <h2 class="skill-header bg-warning text-dark fw-bold pt-3 pb-3">My Top Skills</h2>
+
             <div class="first-set animate__animated animate__pulse">
                 <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
                 <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
@@ -83,7 +124,7 @@
             </div>
         </div>
         <div class="bgColor">
-            <h3 class="fw-bold pt-3"><u>Key Skills & Capabilities</u></h3>
+            <h3 class="fw-bold pt-3 pb-3 bg-warning">Key Skills & Capabilities</h3>
             <div class=" d-flex  mt-4 p-4">
                 <h3 class="fs-4 mx-2 fw-bold">ITIL | Certified</h3>
                 <h3 class="fs-4 mx-2 fw-bold text-danger">Scrum | Kanban | JIRA</h3>
@@ -111,7 +152,7 @@
                         <h1 class="fs-2  text-light bg-dark  p-4 fw-bold text-center fw-bold ">Google IT Support Professional Certificate</h1>
                     </div>
                     <div class="card-body bgColor">
-                        <h2 class="card-title text-center pt-3 pb-4 fw-bold">Google | Coursera</h2>
+                        <h2 class="card-title bg-warning text-center pt-3 pb-4 fw-bold">Google | Coursera</h2>
                         <!-- <h4 class="card-subtitle text-muted pb-4 text-center">July 2021 --- September 2021 </h4> -->
                         <div class="row ">
                             <div class="col-12 col-sm-12">
@@ -133,6 +174,17 @@
                                         Software Distribution/ Package Managers / Device Software Management / Filesystems / Filesystem Types <br>
                                         Process Management  Life in a Process / Managing Process / Process Utilizations / Remote Access / Virtualization / Logging / Operating system Deployment.
                                     </li>
+                                    <h3 class="fs-4 pb-3 fw-bold"><u>System Administration and IT Infrastructure Services</u> </h3>
+                                    <li class="fs-6 pb-4"><strong>System Administration Tasks</strong> / Organization Policies / User and Hardware Provisioning<br>
+                                         Routine Maintenance / Troubleshooting and Managing issues / Accessing Risks / IT Infrastructure Services  <br>
+                                         Server Operating Systems / Virtualization / Network Services FTP - SFTP - TFTP - NTP / DNS for Web Servers <br>
+                                         DNS for internal Networks / Managing System services / Managing and Configuring Services in Windows / Linux <br>
+                                         <strong>Introduction to Directory Server</strong> / Implementing Directory Services / Software and Platform Services / Email Services <br>
+                                         Configuring Security Services / File Services / Network File Storage / Mobile Synchronization / Configuring Print Services  <br>
+                                         Web Server / Database server / File, Print and Platform Services/ Troubleshooting Platform Services / Managing Cloud resources  <br>
+                                        <strong>Active Directory Management</strong> Management / LDAP Authentication / Active Directory / Joining an Active Directory Domain <br>
+                                        Managing Active Directory Users and Groups and user Passwords / Group Policy Creation and Editing / Group policy Inheritance and Precedence / Group Policy Troubleshooting /Mobile Device Management / Managing OpenLDAP <br>
+                                    </li>
                                 </ul>
                             </div>
                             <hr>
@@ -144,7 +196,7 @@
                         <h1 class="fs-2  text-light bg-dark  p-4 fw-bold text-center fw-bold ">ServiceNow Apprenticeship</h1>
                     </div>
                     <div class="card-body bgColor">
-                        <h3 class="card-title text-center pt-3 fw-bold">New Apprenticeship | Bootcamp</h3>
+                        <h3 class="card-title text-center bg-warning mb-4 pb-3 pt-3 fw-bold">New Apprenticeship | Bootcamp</h3>
                         <h4 class="card-subtitle text-muted pb-4 text-center">July 2021 --- September 2021 </h4>
                         <div class="row ">
                             <div class="col-sm-12">
@@ -171,7 +223,7 @@
                         <h1 class="fs-2  text-light bg-dark  p-4 fw-bold text-center  fw-bold "> NuCamp Coding Bootcamp</h1>
                     </div>
                     <div class="card-body bgColor">
-                        <h3 class="card-title text-center pt-3 fw-bold">Full-Stack Web-Development</h3>
+                        <h3 class="card-title text-center bg-warning mb-4 pt-3 pb-3 fw-bold">Full-Stack Web-Development</h3>
                         <h4 class="card-subtitle fw-bold text-muted text-center pb-4">March 2021 --- June 2021 </h4>
                         <div class="row pt-4">
                             <div class="col-sm-12">

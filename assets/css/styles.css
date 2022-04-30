@@ -18,6 +18,7 @@
 }
 /* Variables end */
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -441,3 +442,18 @@ footer {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
  
 } */
+
+.carousel {
+  border: solid #29282e;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}

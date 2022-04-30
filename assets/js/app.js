@@ -29,3 +29,6 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+
+
