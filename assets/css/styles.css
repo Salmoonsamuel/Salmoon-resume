@@ -444,7 +444,8 @@ footer {
 } */
 
 .carousel {
-  border: solid #29282e;
+  border: solid 
+  #29282e;
 }
 
 .carousel-caption {
