@@ -76,7 +76,7 @@ nav h1 {
 }
 
 nav a {
-  color: white;
+  color: rgb(213, 162, 80);
   transition: var(--transition);
 }
 
