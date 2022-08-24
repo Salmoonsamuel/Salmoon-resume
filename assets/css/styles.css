@@ -66,17 +66,19 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 3.5rem;
-  background-color: black;
-  box-shadow: 0 3px 5px rgba(141, 19, 19, 0.1);
+  background-color: rgb(203, 216, 217);
+  box-shadow: 0 3px 5px rgba(20, 45, 157, 0.1);
 }
 
-nav h1 {
+nav h2 {
   
   padding-left: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
 }
 
 nav a {
-  color: rgb(213, 162, 80);
+  color: rgb(107, 95, 75);
   transition: var(--transition);
 }
 
