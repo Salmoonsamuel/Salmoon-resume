@@ -65,8 +65,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3.5rem;
-  background-color: rgb(203, 216, 217);
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+  padding:1rem 2.5rem; 
+  background-color: rgb(10, 161, 171);
   box-shadow: 0 3px 5px rgba(20, 45, 157, 0.1);
 }
 
