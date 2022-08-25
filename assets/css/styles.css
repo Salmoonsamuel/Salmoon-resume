@@ -319,9 +319,10 @@ nav ul li {
 /* Footer section */
 footer {
   background-color: var(--bg-color);
-  padding: 1.25rem;
+  padding-top: 1rem;
+  border:solid 4px #29282e;
   text-align: center;
-  margin: 2rem 0 0;
+  /* margin: 2rem 0 0; */
 }
 /* Footer section ends */
 
@@ -346,6 +347,7 @@ footer {
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
+    background-color: #4f6c78;
   }
   nav ul {
     position: fixed;
@@ -416,6 +418,9 @@ footer {
   .contact-form-container {
     max-width: 23.75rem;
   }
+  footer a{
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -435,6 +440,7 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
+
 }
 .bgColor{
    background-color: rgba(137, 186, 231, 0.5);
