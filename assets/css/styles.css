@@ -72,6 +72,11 @@ nav {
   /* box-shadow: 0 3px 5px rgba(137, 147, 191, 0.1); */
 }
 
+nav:hover{
+  /* box-shadow: 2px 2px 4px 10px rgb(185, 101, 101, 0.5); */
+box-shadow: rgba(94, 50, 50, 0.453) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(119, 41, 41, 0.649) 0px -3px 5px;
+}
+
 nav h2 {
   
   padding-left: 2rem;
@@ -97,7 +102,9 @@ nav ul {
 nav ul li {
   font-weight: var(--bold-font);
 }
-
+section div:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(113, 48, 48, 0.43) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(119, 41, 41, 0.649) 0px -3px 5px;
+}
 .burger-menu {
   color: var(--primary-color);
   font-size: 2rem;
