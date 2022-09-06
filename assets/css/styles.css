@@ -73,8 +73,8 @@ nav {
 }
 
 nav:hover{
-  /* box-shadow: 2px 2px 4px 10px rgb(185, 101, 101, 0.5); */
-box-shadow: rgba(94, 50, 50, 0.453) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(119, 41, 41, 0.649) 0px -3px 5px;
+  background-color: rgb(80, 97, 100); 
+  box-shadow: rgba(94, 50, 50, 0.453) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(119, 41, 41, 0.649) 0px -3px 5px;
 }
 
 nav h2 {
