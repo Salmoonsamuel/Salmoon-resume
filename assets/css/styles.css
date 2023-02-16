@@ -68,14 +68,14 @@ nav {
   /* padding-top: 1rem;
   padding-bottom: 1rem; */
   padding: 0.5rem 19.5rem; 
-  background-color: rgb(154, 183, 185, 0.1);
+  background-color: rgba(120, 127, 129, 1.5);
   /* box-shadow: 0 3px 5px rgba(137, 147, 191, 0.1); */
 }
 
-nav:hover{
-  /* background-color: rgb(170, 190, 193);  */
+/* nav:hover{
+  background-color: rgb(170, 190, 193); 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(113, 48, 48, 0.43) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(119, 41, 41, 0.649) 0px -3px 5px;
-}
+} */
 
 nav h2 {
   
@@ -86,11 +86,11 @@ nav h2 {
 
 nav a {
   color: rgb(189, 169, 150);
-  transition: var(--transition);
+  /* transition: var(--transition); */
 }
 
 nav a:hover {
-  color: var(--secondary-color);
+  color: var(--primary-shadow);
   border-bottom: 2px solid var(--secondary-color);
 }
 
