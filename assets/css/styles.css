@@ -475,3 +475,6 @@ footer {
   bottom: 0;
   z-index: 100;
 }
+.pad1 {
+  text-align: center;
+}
