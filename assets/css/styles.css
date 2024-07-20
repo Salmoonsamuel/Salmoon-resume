@@ -46,7 +46,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  /* background-color: rgb(9, 12, 12); */
+   background-color: rgb(9, 12, 12); 
 }
 
 /* section {
@@ -68,7 +68,7 @@ nav {
   /* padding-top: 1rem;
   padding-bottom: 1rem; */
   padding: 0.5rem 19.5rem; 
-  background-color: rgba(120, 127, 129, 1.5);
+  /*background-color: rgba(120, 127, 129, 1.5)*/
   /* box-shadow: 0 3px 5px rgba(137, 147, 191, 0.1); */
 }
 
